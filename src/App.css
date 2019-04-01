@@ -1,0 +1,45 @@
+.app {
+  min-height: 100vh;
+  /* text-align: center; */
+  background-color: #ECECEC;
+}
+
+.app-logo {
+  height: 36px;
+  animation: app-logo-spin infinite 2s linear;
+}
+
+.row-8 {
+  margin-right: -8px;
+  margin-left: -8px;
+}
+
+.col-min-width {
+  min-width: 180px;
+}
+
+.button-size {
+  width: 90px;
+  height: 36px;
+}
+
+.select-size-sm {
+  width: 90px;
+}
+
+.select-size {
+  width: 160px;
+}
+
+.border-item {
+  border: 3px solid transparent;
+}
+
+@keyframes app-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
